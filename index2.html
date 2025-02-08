@@ -35,7 +35,8 @@
     </div>
 
     <div class="p-4">
-        <button id="darkModeToggle" class="border-2 border-black p-4 py-1">Dark Mode: <span id="darkModeStatus">Inactive</span></button>
+        <button id="darkModeToggle" class="border-2 border-black p-4 py-1">Dark Mode: <span
+                id="darkModeStatus">Inactive</span></button>
     </div>
 
     <button class="bg-gray-300 hover:bg-green-500 p-4 border-4 border-black">Se passi sopra divento verde</button>
@@ -47,8 +48,13 @@
         <input type="text" class="active:bg-green-500 border-gray border-2">
     </div>
 
-       
-
+    <div class="p-padding">
+        <form action="">
+            <input type="text" class="bg-gray-300 border-2 border-black disabled:bg-green-500" disabled>
+            <input type="text" class="bg-blue-500 border-2 border-black disabled:bg-red-500" disabled>
+            <button class="border-2 border-black disabled:bg-blue-500" disabled>Bottone</button>
+        </form>
+    </div>
 
     <script>
         function toggleDarkMode() {
